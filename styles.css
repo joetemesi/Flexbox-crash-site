@@ -83,4 +83,25 @@ header {
 
 .header .container {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex:1;
+    background: #0a51cc;
+    color: #fff;
+    border-radius: 11px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px black;
+    padding: 15px 20px;
+}
+
+.box i {
+    margin-right:8px;
 }
