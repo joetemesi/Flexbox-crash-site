@@ -105,3 +105,14 @@ header {
 .box i {
     margin-right:8px;
 }
+
+@media(max-width:760px) {
+    .header .container {
+        flex-direction: column;
+    }
+
+    .boxes .container {
+        display: block;
+        text-align: center;
+    }
+}
